@@ -14,4 +14,36 @@ body {
     border: 1px dashed blue;
     min-width: 200px;
     height: 100px;
+    position: relative;
+    padding: 15px;
+}
+
+.icon {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.counter {
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    color: blue;
+}
+
+.stats-container h4 {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
 }
