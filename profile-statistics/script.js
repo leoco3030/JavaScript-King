@@ -17,5 +17,4 @@ countersEl.forEach(counterEl=>{
                 counterEl.innerText = dataCeil;
             }                
         }
-    
 });
