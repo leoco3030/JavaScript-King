@@ -14,9 +14,11 @@ body {
     height: 100vh;
     justify-content: center;
     font-family: var(--mainfont);
+    overflow: hidden;
 }
 
 h2 {
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
